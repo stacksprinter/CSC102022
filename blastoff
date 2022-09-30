@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>
+            This is gonna blow
+        </p>
+
+        <script>
+            var currtime=50;
+                var currtime1=currtime-5
+                var currtime2=currtime1-5
+                var currtime3=currtime2-5
+                var currtime4=currtime3-5
+                var currtime5=currtime4-5
+                var currtime6=currtime5-5
+                var currtime7=currtime6-5
+                var currtime8=currtime7-5
+                var currtime9=currtime8-5
+                
+            
+            setTimeout(function(){alert("time is "+currtime9);}, 50000);
+            setTimeout(function(){alert("time is "+currtime8);}, 45000);
+            setTimeout(function(){alert("time is "+currtime7);}, 40000);
+            setTimeout(function(){alert("time is "+currtime6);}, 35000);
+            setTimeout(function(){alert("time is "+currtime5);}, 30000);
+            setTimeout(function(){alert("time is "+currtime4);}, 25000);
+            setTimeout(function(){alert("time is "+currtime3);}, 20000);
+            setTimeout(function(){alert("time is "+currtime2);}, 15000);
+            setTimeout(function(){alert("time is "+currtime1);}, 10000);
+            setTimeout(function(){alert("time is "+currtime);}, 5000);
+            setTimeout(function(){alert("blastoff");}, 50001);
+            display = document.querySelector('#time');
+    
+        </script>
+    </body>
+</html>
